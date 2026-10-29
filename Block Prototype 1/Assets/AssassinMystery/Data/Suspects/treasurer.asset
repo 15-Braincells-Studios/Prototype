@@ -1,0 +1,74 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7e76c79f1aa7df4391b0909e0ea0543, type: 3}
+  m_Name: treasurer
+  m_EditorClassIdentifier: AssassinMystery::AssassinMystery.SuspectData
+  id: treasurer
+  displayName: Master Corwin Vale
+  role: Castle Treasurer
+  profile: Keeps the royal accounts. Precise, polite, and always counting.
+  coatColor: {r: 0.22745098, g: 0.16470589, b: 0.11764706, a: 1}
+  accentColor: {r: 0.18431373, g: 0.41960785, b: 0.22745098, a: 1}
+  skinColor: {r: 0.8627451, g: 0.7529412, b: 0.6392157, a: 1}
+  headwear: 7
+  heightScale: 0.97
+  beard: 0
+  greeting: Detective. A terrible business, this warning. If figures or records can
+    help you, I am at your service.
+  topics:
+  - question: What is your work here?
+    response: The Crown's accounts. Every coin in, every coin out. The books are
+      in perfect order, I assure you.
+    recordInNotebook: 1
+    requiresClue: {fileID: 0}
+    revealsClue: {fileID: 0}
+  - question: Where were you this afternoon?
+    response: Here in the library, all afternoon, with my ledgers. I never left the
+      table. Ask Master Ilric.
+    recordInNotebook: 1
+    requiresClue: {fileID: 0}
+    revealsClue: {fileID: 0}
+  - question: Have you heard of an audit?
+    response: An audit? No. No, I... I would welcome one, of course. The books are
+      perfect.
+    recordInNotebook: 1
+    requiresClue: {fileID: 0}
+    revealsClue: {fileID: 0}
+  - question: Ilric says you left the library after the third bell.
+    response: Did I? Perhaps to stretch my legs. A few minutes, no more. Ilric is
+      old, he loses track of the hours.
+    recordInNotebook: 1
+    requiresClue: {fileID: 11400000, guid: a7dc5d905aec18f4bbf63a7f55b8b216, type: 2}
+    revealsClue: {fileID: 0}
+  - question: You signed for the cellar key at the third bell.
+    response: Ah. Yes, I had forgotten. A stores count. Routine. The Crown must know
+      how many barrels of turnips it owns.
+    recordInNotebook: 1
+    requiresClue: {fileID: 11400000, guid: d76b83e2d86f7bd47baff1d5cad9e48b, type: 2}
+    revealsClue: {fileID: 0}
+  - question: Lady Seraphine wants her four hundred crowns.
+    response: A private loan. Entirely private. It has nothing whatever to do with
+      the Crown's money.
+    recordInNotebook: 1
+    requiresClue: {fileID: 11400000, guid: eb86f676fa092e64e8cd061c2f84bef0, type: 2}
+    revealsClue: {fileID: 0}
+  - question: Agnes saw you covered in cobwebs.
+    response: The library is very dusty. Ask anyone.
+    recordInNotebook: 1
+    requiresClue: {fileID: 11400000, guid: 5dfe48b07762085488ccacc1e6d723bb, type: 2}
+    revealsClue: {fileID: 0}
+  - question: The vial was wrapped in a ledger page, in green ink.
+    response: Anyone can buy green ink. Anyone can tear a page. I... I believe I
+      have answered enough questions, detective.
+    recordInNotebook: 1
+    requiresClue: {fileID: 11400000, guid: a3351d779b594e8468d50d140bf21d03, type: 2}
+    revealsClue: {fileID: 0}

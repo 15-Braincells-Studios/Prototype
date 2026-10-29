@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 32a76854c63b98b4b86ea482b9001866, type: 3}
+  m_Name: audit_decree
+  m_EditorClassIdentifier: AssassinMystery::AssassinMystery.ClueData
+  id: audit_decree
+  title: Draft Royal Decree
+  category: 0
+  description: 'A draft in Lord Halvard''s hand, to be read at tonight''s toast:
+    "By order of Queen Isolde, a full audit of the royal treasury shall begin at
+    dawn. The Treasurer shall surrender every ledger."'
+  relatedSuspects:
+  - {fileID: 11400000, guid: 8a45335b0cbf24444b7c4740f3c60af6, type: 2}
+  - {fileID: 11400000, guid: 8112482426f9f5f418e46d7a5086def3, type: 2}

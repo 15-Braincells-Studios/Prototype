@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7e76c79f1aa7df4391b0909e0ea0543, type: 3}
+  m_Name: blacksmith
+  m_EditorClassIdentifier: AssassinMystery::AssassinMystery.SuspectData
+  id: blacksmith
+  displayName: Gunnar Holt
+  role: Royal Blacksmith
+  profile: Keeps the castle's locks, hinges and blades, and the ledger for the cellar
+    key.
+  coatColor: {r: 0.2901961, g: 0.2, b: 0.14117648, a: 1}
+  accentColor: {r: 0.16862746, g: 0.16862746, b: 0.16862746, a: 1}
+  skinColor: {r: 0.7254902, g: 0.5019608, b: 0.36078432, a: 1}
+  headwear: 0
+  heightScale: 1.12
+  beard: 1
+  greeting: Hrm. Mind the anvil. It's hot.
+  topics:
+  - question: Who took the cellar key today?
+    response: They sign the ledger on my bench. I don't read so well. Look yourself.
+    recordInNotebook: 1
+    requiresClue: {fileID: 0}
+    revealsClue: {fileID: 0}
+  - question: What are you forging?
+    response: Daggers. Six of them. Sharp ones. Captain's order. The paper's in the
+      crate.
+    recordInNotebook: 1
+    requiresClue: {fileID: 0}
+    revealsClue: {fileID: 0}
+  - question: Where were you this afternoon?
+    response: Here. Hammering. The forge is loud and the smoke is thick. Someone
+      came for the key after the third bell. Robes. I didn't look up.
+    recordInNotebook: 1
+    requiresClue: {fileID: 0}
+    revealsClue: {fileID: 0}
+  - question: Does anyone down here have secrets?
+    response: Bertrand's little wine trade? Everyone below stairs knows about it
+      but him. His tally's in the old cabinet.
+    recordInNotebook: 1
+    requiresClue: {fileID: 0}
+    revealsClue: {fileID: 0}
+  - question: Master Vale signed for the cellar key.
+    response: Did he now. Odd. The Treasurer counting turnips himself? He always
+      sends a clerk.
+    recordInNotebook: 1
+    requiresClue: {fileID: 11400000, guid: d76b83e2d86f7bd47baff1d5cad9e48b, type: 2}
+    revealsClue: {fileID: 0}

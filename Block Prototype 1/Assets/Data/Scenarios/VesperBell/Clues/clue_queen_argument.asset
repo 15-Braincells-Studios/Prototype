@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c49be79301328bc49a3c614b0d58176e, type: 3}
+  m_Name: clue_queen_argument
+  m_EditorClassIdentifier: Assembly-CSharp::PreventTheMurder.ClueData
+  id: clue_queen_argument
+  title: Overheard argument
+  description: 'Queen Isolde overheard Duke Colin arguing about money with a stranger:
+    "You will have it all by the new moon."'
+  summary: Isolde heard Colin promise a stranger money by the new moon.
+  category: 0
+  pointsTo: {fileID: 11400000, guid: fc6661592b9fa8d479ab8b4d3185de55, type: 2}
+  foundInRoom: 

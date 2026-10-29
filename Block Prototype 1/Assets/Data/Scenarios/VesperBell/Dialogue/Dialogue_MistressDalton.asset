@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a33d78d4f46cd574a838d575a6c13330, type: 3}
+  m_Name: Dialogue_MistressDalton
+  m_EditorClassIdentifier: Assembly-CSharp::PreventTheMurder.DialogueData
+  greeting:
+  - text: Mind the hearth, it's hot. What is it?
+    clueToUnlock: {fileID: 0}
+    requiredClue: {fileID: 0}
+  topics:
+  - title: Ask about today
+    requiredClue: {fileID: 0}
+    lines:
+    - text: Busy as ever. The Vesper feast won't cook itself.
+      clueToUnlock: {fileID: 0}
+      requiredClue: {fileID: 0}
+    - text: Odd thing, though. I came back from the cellar and found Duke Colin alone
+        in here.
+      clueToUnlock: {fileID: 0}
+      requiredClue: {fileID: 0}
+    - text: He had my cupboard open. Said he was looking for honey cakes.
+      clueToUnlock: {fileID: 11400000, guid: 33d54a25773995144be268bc03c86c65, type: 2}
+      requiredClue: {fileID: 0}
+  - title: Ask about the cupboard
+    requiredClue: {fileID: 0}
+    lines:
+    - text: Spices, salt, and the rat bane. I keep it all in there.
+      clueToUnlock: {fileID: 0}
+      requiredClue: {fileID: 0}
+    - text: You found the rat bane half gone? I filled that pouch only yesterday!
+      clueToUnlock: {fileID: 0}
+      requiredClue: {fileID: 11400000, guid: 0dff46e6d09473f4ea8cb6e2a69e209f, type: 2}
+  - title: Ask about the King's wine
+    requiredClue: {fileID: 0}
+    lines:
+    - text: I don't serve the King's wine. His goblet stays up in the Solar till
+        Vesper.
+      clueToUnlock: {fileID: 0}
+      requiredClue: {fileID: 0}
+  farewellLabel: Farewell.

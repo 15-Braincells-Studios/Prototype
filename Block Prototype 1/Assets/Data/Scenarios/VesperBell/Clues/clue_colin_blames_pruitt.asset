@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c49be79301328bc49a3c614b0d58176e, type: 3}
+  m_Name: clue_colin_blames_pruitt
+  m_EditorClassIdentifier: Assembly-CSharp::PreventTheMurder.ClueData
+  id: clue_colin_blames_pruitt
+  title: Colin points at Pruitt
+  description: Duke Colin was quick to say Brother Pruitt is always mixing potions
+    for the King.
+  summary: Colin claims Pruitt mixes strange potions for the King.
+  category: 2
+  pointsTo: {fileID: 11400000, guid: 0bc5c99954e2d224c805a8ac2f3146fa, type: 2}
+  foundInRoom: 

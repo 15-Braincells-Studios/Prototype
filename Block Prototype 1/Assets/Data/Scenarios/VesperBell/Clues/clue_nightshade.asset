@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c49be79301328bc49a3c614b0d58176e, type: 3}
+  m_Name: clue_nightshade
+  m_EditorClassIdentifier: Assembly-CSharp::PreventTheMurder.ClueData
+  id: clue_nightshade
+  title: Pouch of nightshade powder
+  description: A leather pouch marked "For the rats". Grey nightshade powder inside,
+    but much of it is gone, and the dust on the pouch is freshly smudged.
+  summary: Nightshade pouch in the kitchen cupboard, recently half emptied.
+  category: 1
+  pointsTo: {fileID: 0}
+  foundInRoom: 

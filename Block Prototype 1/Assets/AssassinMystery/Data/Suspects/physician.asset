@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7e76c79f1aa7df4391b0909e0ea0543, type: 3}
+  m_Name: physician
+  m_EditorClassIdentifier: AssassinMystery::AssassinMystery.SuspectData
+  id: physician
+  displayName: Doctor Aldous Mordaunt
+  role: Royal Physician
+  profile: Treated the royal family for twenty years, until the Queen dismissed him
+    from her service last month.
+  coatColor: {r: 0.11764706, g: 0.11764706, b: 0.13333334, a: 1}
+  accentColor: {r: 0.24705882, g: 0.36862746, b: 0.22745098, a: 1}
+  skinColor: {r: 0.84705883, g: 0.7490196, b: 0.6431373, a: 1}
+  headwear: 7
+  heightScale: 1
+  beard: 1
+  greeting: Hm. A detective. There is a stable boy with a fever, and I am being kept
+    here to answer questions.
+  topics:
+  - question: Why did the Queen dismiss you?
+    response: She prefers a younger physician from the capital. Twenty years of service,
+      and now I tend stable boys. I am bitter, yes. Bitter is not murderous.
+    recordInNotebook: 1
+    requiresClue: {fileID: 0}
+    revealsClue: {fileID: 0}
+  - question: You know a great deal about poisons.
+    response: Every physician does. My stores are sealed, counted each morning and
+      kept in my satchel. Look for yourself if you must.
+    recordInNotebook: 1
+    requiresClue: {fileID: 0}
+    revealsClue: {fileID: 0}
+  - question: Where were you this afternoon?
+    response: In the stables with the sick boy, from the third bell until the fourth.
+      Mistress Agnes brought me hot water, twice.
+    recordInNotebook: 1
+    requiresClue: {fileID: 0}
+    revealsClue: {fileID: 0}
+  - question: Who else could get hold of poison here?
+    response: Besides me? Master Ilric keeps all manner of reagents for his studies.
+      Foxglove, nightshade, wolfsbane. He is careless with his keys.
+    recordInNotebook: 1
+    requiresClue: {fileID: 0}
+    revealsClue: {fileID: 0}
+  - question: What would wolfsbane do to someone?
+    response: Aconite. A few drops in strong red wine and you would never taste it.
+      Numbness, sweating, then the heart stops within the hour. A cruel thing.
+    recordInNotebook: 1
+    requiresClue: {fileID: 11400000, guid: 31c7e05a290471146aa26487bd1ab1a3, type: 2}
+    revealsClue: {fileID: 0}

@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c49be79301328bc49a3c614b0d58176e, type: 3}
+  m_Name: clue_vesper_wine
+  m_EditorClassIdentifier: Assembly-CSharp::PreventTheMurder.ClueData
+  id: clue_vesper_wine
+  title: Wine at Vesper
+  description: Brother Pruitt confirms the King drinks one goblet of wine at the
+    Vesper bell, without fail.
+  summary: 'Pruitt: the King drinks his wine at Vesper, sharp.'
+  category: 3
+  pointsTo: {fileID: 11400000, guid: b3055aae2cca863409f86b57c5c78c09, type: 2}
+  foundInRoom: 

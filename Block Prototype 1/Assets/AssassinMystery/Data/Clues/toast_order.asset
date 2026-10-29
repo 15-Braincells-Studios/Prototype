@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 32a76854c63b98b4b86ea482b9001866, type: 3}
+  m_Name: toast_order
+  m_EditorClassIdentifier: AssassinMystery::AssassinMystery.ClueData
+  id: toast_order
+  title: Order for the Vesper Toast
+  category: 1
+  description: '"By order of the Treasury: the Queen''s private cask is to be brought
+    up and poured alone for the vesper toast. No other wine is to be served to Her
+    Majesty." Green ink, Treasury seal.'
+  relatedSuspects:
+  - {fileID: 11400000, guid: 8a45335b0cbf24444b7c4740f3c60af6, type: 2}
+  - {fileID: 11400000, guid: 43ebf0c9fd7024e4c9bdaa233d3fa56c, type: 2}

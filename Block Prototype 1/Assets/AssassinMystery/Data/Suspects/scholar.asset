@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7e76c79f1aa7df4391b0909e0ea0543, type: 3}
+  m_Name: scholar
+  m_EditorClassIdentifier: AssassinMystery::AssassinMystery.SuspectData
+  id: scholar
+  displayName: Master Ilric Thorne
+  role: Court Scholar
+  profile: Studies old texts and stranger substances. His reagent cabinet holds things
+    best kept locked.
+  coatColor: {r: 0.29411766, g: 0.17254902, b: 0.41960785, a: 1}
+  accentColor: {r: 0.7882353, g: 0.7058824, b: 0.34509805, a: 1}
+  skinColor: {r: 0.8862745, g: 0.7764706, b: 0.68235296, a: 1}
+  headwear: 6
+  heightScale: 0.98
+  beard: 1
+  greeting: Ah, a visitor! Mind the scrolls, some are older than this castle.
+  topics:
+  - question: What do you study?
+    response: Alchemy, herbs, the deeds of old kings. Mostly herbs, lately. Fascinating
+      what a single leaf can do.
+    recordInNotebook: 1
+    requiresClue: {fileID: 0}
+    revealsClue: {fileID: 0}
+  - question: Where were you this afternoon?
+    response: Here, the whole afternoon. Master Vale shared the long table with his
+      ledgers... until just after the third bell, when he went out. He came back
+      near the fourth, rather flushed.
+    recordInNotebook: 1
+    requiresClue: {fileID: 0}
+    revealsClue: {fileID: 11400000, guid: a7dc5d905aec18f4bbf63a7f55b8b216, type: 2}
+  - question: Is anything missing from your cabinet?
+    response: Missing? No... well, I have not looked today. Look if you like, the
+      inventory is pinned inside the door.
+    recordInNotebook: 1
+    requiresClue: {fileID: 0}
+    revealsClue: {fileID: 0}
+  - question: Has anyone shown interest in the royal family lately?
+    response: Duke Edric came yesterday to read the succession rolls. An odd thing,
+      reading about your own sister's crown.
+    recordInNotebook: 1
+    requiresClue: {fileID: 0}
+    revealsClue: {fileID: 0}
+  - question: A vial of wolfsbane is missing from your cabinet.
+    response: Gone? I... I went to fetch candles after the third bell, and the cabinet
+      was unlocked. Anyone in the library could have taken it. I swear I gave it
+      to no one!
+    recordInNotebook: 1
+    requiresClue: {fileID: 11400000, guid: 31c7e05a290471146aa26487bd1ab1a3, type: 2}
+    revealsClue: {fileID: 0}

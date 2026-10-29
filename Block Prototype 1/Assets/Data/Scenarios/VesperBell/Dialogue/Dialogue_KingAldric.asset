@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a33d78d4f46cd574a838d575a6c13330, type: 3}
+  m_Name: Dialogue_KingAldric
+  m_EditorClassIdentifier: Assembly-CSharp::PreventTheMurder.DialogueData
+  greeting:
+  - text: Ah, a visitor. Be brief, I have a decree to finish before Vesper.
+    clueToUnlock: {fileID: 0}
+    requiredClue: {fileID: 0}
+  topics:
+  - title: Ask about the decree
+    requiredClue: {fileID: 0}
+    lines:
+    - text: I name a new heir tonight. My nephew Colin has wasted his last chance.
+      clueToUnlock: {fileID: 0}
+      requiredClue: {fileID: 0}
+    - text: I sign it at the Vesper toast, before the whole court.
+      clueToUnlock: {fileID: 11400000, guid: abe1d8d297d819e449c418a11a7ae075, type: 2}
+      requiredClue: {fileID: 0}
+  - title: Ask if he feels safe
+    requiredClue: {fileID: 0}
+    lines:
+    - text: Safe? I am the King, and Captain Rowan guards the hall.
+      clueToUnlock: {fileID: 0}
+      requiredClue: {fileID: 0}
+    - text: Do not trouble me with shadows. Go and enjoy the feast.
+      clueToUnlock: {fileID: 0}
+      requiredClue: {fileID: 0}
+  - title: Ask about the Vesper toast
+    requiredClue: {fileID: 0}
+    lines:
+    - text: One goblet of my good red at the Vesper bell. Twenty years, never missed.
+      clueToUnlock: {fileID: 0}
+      requiredClue: {fileID: 0}
+  farewellLabel: Farewell.

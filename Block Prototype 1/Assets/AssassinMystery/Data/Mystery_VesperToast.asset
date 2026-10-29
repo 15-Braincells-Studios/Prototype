@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9bfd1e6fce8562f43a5a877e3bb269fa, type: 3}
+  m_Name: Mystery_VesperToast
+  m_EditorClassIdentifier: AssassinMystery::AssassinMystery.MysteryData
+  title: The Vesper Toast
+  subtitle: A Medieval Assassination Mystery
+  briefing: 'Castle Aldmere, midwinter. At noon a note was pinned to the guardroom
+    door: <i>"Royal blood will be spilled at the vesper bell."</i>
+
+
+    Captain
+    Brienne Hale has summoned you in secret. Two royals are in the castle tonight:
+    Queen Isolde and her brother, Duke Edric. The feast has begun, and the vesper
+    bell rings in ten minutes.
+
+
+    Question the household, search the Great Hall,
+    the Library and the Basement, and compare what people say with what you find.
+    When you can prove who the assassin is (motive, means and opportunity), make
+    your accusation from the notebook. A false accusation costs precious time.'
+  target: {fileID: 11400000, guid: 50c22b3f22f7a454db36fd95f86348ec, type: 2}
+  suspects:
+  - {fileID: 11400000, guid: 8112482426f9f5f418e46d7a5086def3, type: 2}
+  - {fileID: 11400000, guid: 611ec3d0c0aa4024d8a284dd6a4dc98a, type: 2}
+  - {fileID: 11400000, guid: 43ebf0c9fd7024e4c9bdaa233d3fa56c, type: 2}
+  - {fileID: 11400000, guid: 5b0608e5501489646b3b59a4ff83d0bb, type: 2}
+  - {fileID: 11400000, guid: 3e3aef515f8058e4ca5225da64f0be7d, type: 2}
+  - {fileID: 11400000, guid: 8689bf657064fa04685e347c9932e955, type: 2}
+  - {fileID: 11400000, guid: 6259760af2a667242be83a41e1de69c2, type: 2}
+  - {fileID: 11400000, guid: 78957da79d20ecd42a377c659804835f, type: 2}
+  - {fileID: 11400000, guid: bd45d31c09330dc47a6b25b49e7a09c2, type: 2}
+  - {fileID: 11400000, guid: 8a45335b0cbf24444b7c4740f3c60af6, type: 2}
+  assassin: {fileID: 11400000, guid: 8a45335b0cbf24444b7c4740f3c60af6, type: 2}
+  keyEvidence:
+  - {fileID: 11400000, guid: ee3afc18692a05045b511cd858cb4c02, type: 2}
+  - {fileID: 11400000, guid: eb86f676fa092e64e8cd061c2f84bef0, type: 2}
+  - {fileID: 11400000, guid: d76b83e2d86f7bd47baff1d5cad9e48b, type: 2}
+  - {fileID: 11400000, guid: 31c7e05a290471146aa26487bd1ab1a3, type: 2}
+  - {fileID: 11400000, guid: a3351d779b594e8468d50d140bf21d03, type: 2}
+  - {fileID: 11400000, guid: 1e48c9b3bb5c2524aa0e9d9a071439f2, type: 2}
+  - {fileID: 11400000, guid: 41d15aa1e21ec544cb7deded1d2fe4a8, type: 2}
+  - {fileID: 11400000, guid: a7dc5d905aec18f4bbf63a7f55b8b216, type: 2}
+  - {fileID: 11400000, guid: 5dfe48b07762085488ccacc1e6d723bb, type: 2}
+  - {fileID: 11400000, guid: 046a0517567658d4ba1984c1fdce0727, type: 2}
+  solution: Vale had been stealing from the royal treasury for a year, and borrowed
+    four hundred crowns from Lady Seraphine to hide the gap. When Lord Halvard drafted
+    the Queen's decree ordering an audit at dawn, Vale knew he was finished. After
+    the third bell he slipped out of the library, took Master Ilric's wolfsbane from
+    the unlocked cabinet, signed out the cellar key in his own green ink, and poisoned
+    the Queen's private cask while the cellar patrol was away. His order slip made
+    sure that cask, and only that cask, would be poured for the vesper toast.
+  durationSeconds: 600

@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7e76c79f1aa7df4391b0909e0ea0543, type: 3}
+  m_Name: servant
+  m_EditorClassIdentifier: AssassinMystery::AssassinMystery.SuspectData
+  id: servant
+  displayName: Mistress Agnes Fell
+  role: Head Servant
+  profile: Runs the household. Knows every routine, every door and every rumour.
+  coatColor: {r: 0.35686275, g: 0.37254903, b: 0.4, a: 1}
+  accentColor: {r: 0.9490196, g: 0.93333334, b: 0.89411765, a: 1}
+  skinColor: {r: 0.9019608, g: 0.7607843, b: 0.6431373, a: 1}
+  headwear: 5
+  heightScale: 0.92
+  beard: 0
+  greeting: Detective. If you need anything, ask. If you need gossip, ask twice.
+  topics:
+  - question: What is the Queen's routine for the toast?
+    response: At the vesper bell she rises, her own cask is opened before the hall,
+      and she drinks the first cup from her own goblet. Nobody else drinks from that
+      cask. Ever.
+    recordInNotebook: 1
+    requiresClue: {fileID: 0}
+    revealsClue: {fileID: 0}
+  - question: Where was everyone this afternoon?
+    response: I took hot water to Doctor Mordaunt in the stables, twice. The Duke
+      was at the butts with the Captain. Lord Halvard was under my feet in here all
+      day. Master Vale said he would be in the library with his ledgers.
+    recordInNotebook: 1
+    requiresClue: {fileID: 0}
+    revealsClue: {fileID: 0}
+  - question: Did you notice anything odd today?
+    response: Master Vale came through the hall after the fourth bell with cobwebs
+      on his sleeve and dust on his hem. The library is dusty, I suppose. Not that
+      dusty.
+    recordInNotebook: 1
+    requiresClue: {fileID: 0}
+    revealsClue: {fileID: 11400000, guid: 5dfe48b07762085488ccacc1e6d723bb, type: 2}
+  - question: Is anyone at court keeping secrets?
+    response: Everyone, dear. But Lord Halvard and Lady Seraphine think nobody notices
+      them meeting in the gallery. Twice this week, heads together like thieves.
+    recordInNotebook: 1
+    requiresClue: {fileID: 0}
+    revealsClue: {fileID: 11400000, guid: a430af667ff8e1142b8996c52b0b6c52, type: 2}
+  - question: Who in the castle writes in green ink?
+    response: Green ink? Only Master Vale. He has it sent from the capital. Says
+      it makes his ledgers "distinctive".
+    recordInNotebook: 1
+    requiresClue: {fileID: 11400000, guid: a3351d779b594e8468d50d140bf21d03, type: 2}
+    revealsClue: {fileID: 11400000, guid: 046a0517567658d4ba1984c1fdce0727, type: 2}

@@ -1,0 +1,91 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 212399f0e5a1ce14dbde2c8e348de54d, type: 3}
+  m_Name: Scenario_VesperBell
+  m_EditorClassIdentifier: Assembly-CSharp::PreventTheMurder.ScenarioData
+  title: The Vesper Bell
+  intro: 'Whispers in the castle say blood will be spilled when the Vesper Bell tolls.
+
+
+    Find
+    out who is in danger, who means them harm, and how. Then tell Captain Rowan at
+    the guard post before the bell rings.
+
+
+    <size=80%>[WASD] Move   [E] Interact  
+    [J] Notepad   [Esc] Pause</size>'
+  timeLimitSeconds: 900
+  clockLabel: Until the Vesper Bell
+  cast:
+  - character: {fileID: 11400000, guid: b3055aae2cca863409f86b57c5c78c09, type: 2}
+    dialogue: {fileID: 11400000, guid: bfbf88271ab09234c965f66c14cdd1ac, type: 2}
+  - character: {fileID: 11400000, guid: a2ac39d6ab017074dba38efd561e9bc7, type: 2}
+    dialogue: {fileID: 11400000, guid: 2f110ca39b876694d950d20f6eb1198c, type: 2}
+  - character: {fileID: 11400000, guid: 0bc5c99954e2d224c805a8ac2f3146fa, type: 2}
+    dialogue: {fileID: 11400000, guid: 56a7c2aed54f4744c97148a9cb44b8c3, type: 2}
+  - character: {fileID: 11400000, guid: fc6661592b9fa8d479ab8b4d3185de55, type: 2}
+    dialogue: {fileID: 11400000, guid: 1c2d6ffe5a6603d44bf695b0bf2dec6f, type: 2}
+  - character: {fileID: 11400000, guid: 4e98555e7d9b24c44b2e50a60e91f1c4, type: 2}
+    dialogue: {fileID: 11400000, guid: 2c4acf2604eb13541800a510f26eeb23, type: 2}
+  - character: {fileID: 11400000, guid: 88bdbbdaba3c0b34486a2236a429119d, type: 2}
+    dialogue: {fileID: 0}
+  victim: {fileID: 11400000, guid: b3055aae2cca863409f86b57c5c78c09, type: 2}
+  culprit: {fileID: 11400000, guid: fc6661592b9fa8d479ab8b4d3185de55, type: 2}
+  methodOptions:
+  - Stabbed in the kitchens
+  - Poisoned wine
+  - Pushed from the tower stairs
+  - Smothered in his sleep
+  correctMethodIndex: 1
+  cluePlacements:
+  - spotId: solar_desk_drawer_left
+    clue: {fileID: 11400000, guid: 3aa9fde879847e242bd96b799ec7df36, type: 2}
+  - spotId: solar_chest
+    clue: {fileID: 11400000, guid: b7ffefb5967c5684493f598fc8e28b61, type: 2}
+  - spotId: solar_wine_cabinet
+    clue: {fileID: 11400000, guid: c321ef4f04f97d74c9dca549d44f8d8b, type: 2}
+  - spotId: kitchen_cupboard_drawer_top
+    clue: {fileID: 11400000, guid: 0dff46e6d09473f4ea8cb6e2a69e209f, type: 2}
+  - spotId: kitchen_cupboard_drawer_bottom
+    clue: {fileID: 11400000, guid: 049572dc11197f84d994117328816e54, type: 2}
+  - spotId: hall_table_note
+    clue: {fileID: 11400000, guid: fcae0cac061b8f8489fd2d4c3ee32884, type: 2}
+  allClues:
+  - {fileID: 11400000, guid: 3aa9fde879847e242bd96b799ec7df36, type: 2}
+  - {fileID: 11400000, guid: 0dff46e6d09473f4ea8cb6e2a69e209f, type: 2}
+  - {fileID: 11400000, guid: 049572dc11197f84d994117328816e54, type: 2}
+  - {fileID: 11400000, guid: c321ef4f04f97d74c9dca549d44f8d8b, type: 2}
+  - {fileID: 11400000, guid: fcae0cac061b8f8489fd2d4c3ee32884, type: 2}
+  - {fileID: 11400000, guid: b7ffefb5967c5684493f598fc8e28b61, type: 2}
+  - {fileID: 11400000, guid: 33d54a25773995144be268bc03c86c65, type: 2}
+  - {fileID: 11400000, guid: 9294338b81b508c4a994e1bc90fbd357, type: 2}
+  - {fileID: 11400000, guid: aad3d8ae6c9e6cc438d002375f749071, type: 2}
+  - {fileID: 11400000, guid: 91c3284bddc12864b8fb06beac6a721d, type: 2}
+  - {fileID: 11400000, guid: abe1d8d297d819e449c418a11a7ae075, type: 2}
+  - {fileID: 11400000, guid: 00d7d54ac9443b94f92d5c9fed73132c, type: 2}
+  - {fileID: 11400000, guid: 475ac88d2e86551408fba1ed0f0fcfcb, type: 2}
+  reportPrompt: '"Speak plainly. Who is in danger, who means them harm, and how?"'
+  partialMessage: The Captain frowns. "Your story does not add up. Bring me facts."
+  wrongMessage: The Captain scowls. "Idle accusations waste my time. Bring me proof."
+  winTitle: The murder is prevented
+  winText: The guards reach the King in time. {victim} lives, and {culprit} is seized.
+  loseTitle: The Vesper Bell tolls
+  loseText: 'King Aldric raises his goblet for the toast and drinks deep. The wine
+    is laced with nightshade.
+
+
+    The King falls dead before the bell stops ringing,
+    and Duke Colin is nowhere to be found.
+
+
+    <b>Victim:</b> King Aldric    <b>Culprit:</b>
+    Duke Colin    <b>Method:</b> Poisoned wine'

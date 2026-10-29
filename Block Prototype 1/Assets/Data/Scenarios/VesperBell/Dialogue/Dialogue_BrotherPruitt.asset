@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a33d78d4f46cd574a838d575a6c13330, type: 3}
+  m_Name: Dialogue_BrotherPruitt
+  m_EditorClassIdentifier: Assembly-CSharp::PreventTheMurder.DialogueData
+  greeting:
+  - text: Peace be with you. Are you unwell?
+    clueToUnlock: {fileID: 0}
+    requiredClue: {fileID: 0}
+  topics:
+  - title: Ask about the King
+    requiredClue: {fileID: 0}
+    lines:
+    - text: His Majesty confided in me. He means to change the succession tonight.
+      clueToUnlock: {fileID: 11400000, guid: 9294338b81b508c4a994e1bc90fbd357, type: 2}
+      requiredClue: {fileID: 0}
+    - text: I fear it will make him enemies.
+      clueToUnlock: {fileID: 0}
+      requiredClue: {fileID: 0}
+  - title: Ask about the King's wine
+    requiredClue: {fileID: 0}
+    lines:
+    - text: One goblet at the Vesper bell, sharp. I advised it for his heart.
+      clueToUnlock: {fileID: 11400000, guid: aad3d8ae6c9e6cc438d002375f749071, type: 2}
+      requiredClue: {fileID: 0}
+  - title: Ask about the sleeping draught
+    requiredClue: {fileID: 11400000, guid: b7ffefb5967c5684493f598fc8e28b61, type: 2}
+    lines:
+    - text: My sleeping draught? I gave it to His Majesty a week ago.
+      clueToUnlock: {fileID: 0}
+      requiredClue: {fileID: 0}
+    - text: The seal is unbroken, you say? Then he has not touched it. Good.
+      clueToUnlock: {fileID: 0}
+      requiredClue: {fileID: 0}
+  farewellLabel: Farewell.

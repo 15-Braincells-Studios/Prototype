@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7e76c79f1aa7df4391b0909e0ea0543, type: 3}
+  m_Name: captain
+  m_EditorClassIdentifier: AssassinMystery::AssassinMystery.SuspectData
+  id: captain
+  displayName: Captain Brienne Hale
+  role: Captain of the Guard
+  profile: Commands the castle guard and knows every patrol. She summoned you after
+    the warning note.
+  coatColor: {r: 0.47843137, g: 0.12156863, b: 0.12156863, a: 1}
+  accentColor: {r: 0.6156863, g: 0.6392157, b: 0.65882355, a: 1}
+  skinColor: {r: 0.7882353, g: 0.59607846, b: 0.44705883, a: 1}
+  headwear: 3
+  heightScale: 1.05
+  beard: 0
+  greeting: 'Good, you''re here. I found the note pinned to the guardroom door at
+    noon: "Royal blood will be spilled at the vesper bell." I have no idea who wrote
+    it.'
+  topics:
+  - question: Who could be in danger?
+    response: 'Two people of royal blood sleep in this castle: Queen Isolde and her
+      brother, Duke Edric. Either could be the target. I have doubled the guard on
+      the hall doors.'
+    recordInNotebook: 1
+    requiresClue: {fileID: 0}
+    revealsClue: {fileID: 0}
+  - question: Where were you this afternoon?
+    response: At the archery butts in the courtyard with Duke Edric, from the third
+      bell to the fourth. He shot poorly. His mind was somewhere else.
+    recordInNotebook: 1
+    requiresClue: {fileID: 0}
+    revealsClue: {fileID: 0}
+  - question: Who can get into the cellars?
+    response: Anyone with the cellar key, which hangs at Gunnar's bench. You sign
+      his ledger to take it. My men usually walk the cellars as well.
+    recordInNotebook: 1
+    requiresClue: {fileID: 0}
+    revealsClue: {fileID: 0}
+  - question: What will you need to make an arrest?
+    response: 'A name, and proof: motive, means and opportunity. Accuse the wrong
+      person and I lose men to the uproar and you lose time. Do it too often and
+      the real killer walks free.'
+    recordInNotebook: 1
+    requiresClue: {fileID: 0}
+    revealsClue: {fileID: 0}
+  - question: Why was the cellar left unguarded?
+    response: Lord Halvard pulled my cellar round for the feast. Between the third
+      and fourth bell nobody walked down there. I argued. I lost.
+    recordInNotebook: 1
+    requiresClue: {fileID: 11400000, guid: 7e8bf38fb2664f3478c55f2f5a92c69e, type: 2}
+    revealsClue: {fileID: 0}
+  - question: Gunnar is forging daggers for you?
+    response: Six new blades for the guard, yes. Gunnar is slow, but honest. Every
+      one is accounted for.
+    recordInNotebook: 1
+    requiresClue: {fileID: 11400000, guid: d95b8d37fbef856409895502c881678b, type: 2}
+    revealsClue: {fileID: 0}

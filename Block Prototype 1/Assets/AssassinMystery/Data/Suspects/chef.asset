@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7e76c79f1aa7df4391b0909e0ea0543, type: 3}
+  m_Name: chef
+  m_EditorClassIdentifier: AssassinMystery::AssassinMystery.SuspectData
+  id: chef
+  displayName: Bertrand Moule
+  role: Royal Chef
+  profile: Rules the kitchens and the stores beneath them. Loud, proud and protective
+    of his wine.
+  coatColor: {r: 0.9019608, g: 0.8745098, b: 0.8156863, a: 1}
+  accentColor: {r: 0.54509807, g: 0.3529412, b: 0.16862746, a: 1}
+  skinColor: {r: 0.8901961, g: 0.70980394, b: 0.5882353, a: 1}
+  headwear: 4
+  heightScale: 0.95
+  beard: 0
+  greeting: Out of my way! The feast is in minutes and the sauce will not reduce
+    itself!
+  topics:
+  - question: What will the Queen eat and drink tonight?
+    response: Seven courses, every one tasted by my own boy. But the toast is not
+      mine. Her Majesty drinks only from her private cask of Aldmere Red. Nobody
+      pours that but by order.
+    recordInNotebook: 1
+    requiresClue: {fileID: 0}
+    revealsClue: {fileID: 0}
+  - question: Who ordered the Queen's cask brought up?
+    response: 'An order slip came down this afternoon. Very official, very fussy:
+      the Queen''s cask, poured alone. I left it on my pantry shelf.'
+    recordInNotebook: 1
+    requiresClue: {fileID: 0}
+    revealsClue: {fileID: 0}
+  - question: Where were you this afternoon?
+    response: Here! In the kitchen and the stores all day. Ask anyone. Ask the pots.
+    recordInNotebook: 1
+    requiresClue: {fileID: 0}
+    revealsClue: {fileID: 0}
+  - question: Someone has been selling castle wine.
+    response: Ah. Ahem. A few spare bottles to a merchant in town. Spare! Nobody
+      misses them. That is not murder, detective. That is... business.
+    recordInNotebook: 1
+    requiresClue: {fileID: 11400000, guid: ad2be158e1f57bf4f9fd44791f8b2e7c, type: 2}
+    revealsClue: {fileID: 0}
+  - question: The Queen's cask was opened and resealed today.
+    response: Resealed? Nobody touches that cask but me, and I have not opened it
+      since the harvest. If the wax is fresh, someone else has been down here.
+    recordInNotebook: 1
+    requiresClue: {fileID: 11400000, guid: 41d15aa1e21ec544cb7deded1d2fe4a8, type: 2}
+    revealsClue: {fileID: 0}
+  - question: The toast order is in green ink.
+    response: Green, black, purple, what do I care? It had the Treasury seal. When
+      the Treasury says jump, the kitchen jumps.
+    recordInNotebook: 1
+    requiresClue: {fileID: 11400000, guid: 1e48c9b3bb5c2524aa0e9d9a071439f2, type: 2}
+    revealsClue: {fileID: 0}
